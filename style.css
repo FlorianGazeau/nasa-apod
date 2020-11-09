@@ -1,0 +1,74 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background-color: #2156AD;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Poppins', sans-serif;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  /* justify-content: space-between; */
+  margin: 30px 0;
+}
+
+form {
+  margin-right: 80px;
+}
+
+form input {
+  padding: 1em 2em;
+}
+
+.btn {
+  background: none;
+  border: 2px solid white;
+  font: inherit;
+  line-height: 1;
+  margin: 0.5em;
+  padding: 1em 2em;
+  color: white;
+  box-shadow: inset 0 0 0 0;
+  transition: ease-out 0.4s;
+}
+
+.btn:hover {
+  box-shadow: inset 400px 0 0 0 white;
+  color: #000000;
+}
+
+button:focus {outline:0;}
+
+.card {
+  display: flex;
+  background: #fdfdfd;
+  border-radius: 10px;
+  box-shadow:   0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+  0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+  0 12.5px 10px rgba(0, 0, 0, 0.06),
+  0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+  0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+  0 100px 80px rgba(0, 0, 0, 0.12);
+  margin-bottom: 50px;
+}
+
+.card img {
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.card-details {
+  padding: 30px;
+  width: 700px;
+}
+
+.nasa-img {
+  max-width: 700px;
+}
